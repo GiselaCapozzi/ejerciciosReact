@@ -1,0 +1,53 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: cadetblue;
+}
+
+header {
+  padding: 12px 30px;
+  background-color: turquoise;
+  display: flex;
+  border-bottom: 5px solid rgba(46, 46, 233, 0.7);
+  box-shadow: 45px;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  text-align: center;
+  background-color: aquamarine;
+  font-weight: 900;
+}
+
+ul {
+  margin: 0px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 10px;
+  padding: 0px;
+}
+
+#division {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.card {
+  height: 200px;
+  width: 250px;
+  margin: 20px 20px 20px 30px;
+  background-color: rgb(0, 111, 126);
+}
+
+h4 {
+  color: white;
+  text-align: center;
+}
