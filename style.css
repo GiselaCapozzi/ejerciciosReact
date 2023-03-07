@@ -20,7 +20,7 @@ nav {
   font-weight: 900;
 }
 
-ul {
+.nav {
   margin: 0px;
 }
 
@@ -43,7 +43,7 @@ nav ul li {
 .card {
   height: 200px;
   width: 250px;
-  margin: 20px 20px 20px 30px;
+  margin: 20px 20px 20px 20px;
   background-color: rgb(0, 111, 126);
 }
 
@@ -53,5 +53,18 @@ h4 {
 }
 
 a {
+  color: aqua;
+  text-decoration: none;
+}
+
+a:hover {
   color: chartreuse;
+}
+
+a:visited {
+  color: violet;
+}
+
+.enlaces {
+  margin: 0px 40px 0 40px
 }
