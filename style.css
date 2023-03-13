@@ -66,5 +66,10 @@ a:visited {
 }
 
 .enlaces {
-  margin: 0px 0px 0px 15px
+  /* margin: 0px 0px 0px 15px */
+  text-align: center;
+}
+
+ul {
+  padding: 0;
 }
